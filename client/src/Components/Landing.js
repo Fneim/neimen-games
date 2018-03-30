@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar } from './Navbar/Navbar';
-import { Game } from './Game/Game';
+import { Demo } from './Demo/Demo';
+import { Footer } from "./Footer/Footer";
 import "./../index.css";
 
 export class Landing extends React.Component {
@@ -8,7 +9,8 @@ export class Landing extends React.Component {
     return (
       <div>
         <Navbar />
-        <Game />
+        <Demo />
+        <Footer />
       </div>
     )
   }

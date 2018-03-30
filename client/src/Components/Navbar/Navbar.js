@@ -12,7 +12,7 @@ export class Navbar extends React.Component {
     return (
       <Logo />,
       <div id="navbar-div">
-          <h3 id="logo">NEIMEN GAMES</h3>
+          <h1 id="logo">NEIMEN GAMES</h1>
           <ul className="navbar">
             <li><a href="#">Home</a></li>
             <li><a href="#">Us</a></li>
